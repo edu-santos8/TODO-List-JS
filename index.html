@@ -13,25 +13,25 @@
     <script src="js/scripts.js" defer></script>
 </head>
 <body>
-    <div>
+    <div class="todo-container">
         <header>
             <h1>Advanced TO-DO</h1>
         </header>
         <form id="todo-form">
            <p>Add your task:</p>
             <div class="form-control">
-                <input type="text" id="todo-input" placeholder="What are you going to do?">
+                <input type="text" id="todo-input" placeholder="What are you doing?">
                 <button type="submit">
-                    &#10133 
+                    <p class="emoji">&#10133</p> 
                 </button>
             </div>
         </form>
-        <form id="edit-form">
+        <form id="edit-form" class="">
             <p>Edit your task:</p>
             <div class="form-control">
                 <input type="text" id="edit-input" />
                 <button type="submit">
-                    &#128077
+                    <p class="emoji">&#128077</p>
                 </button>
             </div>
             <button id="cancel-edit-btn">Cancel</button>
@@ -42,7 +42,7 @@
                 <form>
                     <input type="text" id="search-input" placeholder="Search">
                 <button id="erase-button">
-                    &#8617
+                    <p class="emoji">&#8617</p>
                 </button>
                 </form>
             </div>
@@ -59,25 +59,25 @@
             <div class="todo">
                 <h3>I'm doing something...</h3>
                 <button class="finish-todo">
-                    &#9989
+                    <p class="emoji">&#9989</p>
                 </button>
                 <button class="edit-todo">
-                    &#128394
+                    <p class="emoji">&#128394</p>
                 </button>
                 <button class="remove-todo">
-                    &#10060
+                    <p class="emoji">&#10060</p>
                 </button>
             </div>
             <div class="todo">
                 <h3>Studying Javascript...</h3>
                 <button class="finish-todo">
-                    &#9989
+                    <p class="emoji">&#9989</p>
                 </button>
                 <button class="edit-todo">
-                    &#128394
+                    <p class="emoji">&#128394</p>
                 </button>
                 <button class="remove-todo">
-                    &#10060
+                    <p class="emoji">&#10060</p>
                 </button>
             </div>
         </div>
