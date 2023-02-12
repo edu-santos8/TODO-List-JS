@@ -13,30 +13,38 @@
     <script src="js/scripts.js" defer></script>
 </head>
 <body>
+
     <div class="todo-container">
         <header>
             <h1>Advanced TO-DO</h1>
         </header>
         <form id="todo-form">
            <p>Add your task:</p>
+
             <div class="form-control">
                 <input type="text" id="todo-input" placeholder="What are you doing?">
                 <button type="submit">
                     <p class="emoji">&#10133</p> 
                 </button>
             </div>
+
         </form>
+
         <form id="edit-form" class="hide">
             <p>Edit your task:</p>
+
             <div class="form-control">
                 <input type="text" id="edit-input" />
                 <button type="submit">
                     <p class="emoji">&#128077</p>
                 </button>
             </div>
+
             <button id="cancel-edit-btn">Cancel</button>
         </form>
+
         <div id="toolbar">
+
             <div id="search">
                 <h4>Search:</h4>
                 <form>
@@ -46,6 +54,7 @@
                 </button>
                 </form>
             </div>
+
             <div id="filter">
                 <h4>Filter:</h4>
                 <select id="filter-select">
@@ -54,8 +63,11 @@
                     <option value="all">To do</option>
                 </select>
             </div>
+
         </div>
+
         <div id="todo-list">
+
             <div class="todo done">
                 <h3>I'm doing something...</h3>
                 <button class="finish-todo">
@@ -68,6 +80,7 @@
                     <p class="emoji">&#10060</p>
                 </button>
             </div>
+
             <div class="todo">
                 <h3>Studying Javascript...</h3>
                 <button class="finish-todo">
@@ -80,7 +93,9 @@
                     <p class="emoji">&#10060</p>
                 </button>
             </div>
+
         </div>
+        
     </div>
 </body>
 </html>
